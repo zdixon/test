@@ -232,7 +232,7 @@
         "artifactsBaseUrl": "",
         "description": "Specifies the base location of the child templates and desired state configuration scripts."
       },
-      "defaultValue": "http://ctxzachtest.blob.core.windows.net/testcontainer"
+      "defaultValue": "https://www.github.com/zdixon/test"
     },
 
     "artifactsBaseUrlSasToken": {
