@@ -142,12 +142,12 @@
         "description": "Specifies the name of a Citrix license server on the virtual network."
       }
     },
-    "netScalerPrivateIp": {
-      "type": "string",
-      "metadata": {
-        "description": "Specifies the private IP of a NetScaler on the virtual network."
-      }
-    },
+    //"netScalerPrivateIp": {
+    //  "type": "string",
+    //  "metadata": {
+    //    "description": "Specifies the private IP of a NetScaler on the virtual network."
+    //  }
+    //},
 
     // StoreFront
     "storeFrontFQDN": {
