@@ -232,7 +232,7 @@
         "artifactsBaseUrl": "",
         "description": "Specifies the base location of the child templates and desired state configuration scripts."
       },
-      "defaultValue": "https://www.raw.githubusercontent.com/zdixon/test/master"
+      "defaultValue": "https://raw.githubusercontent.com/zdixon/test/master"
     },
 
     "artifactsBaseUrlSasToken": {
