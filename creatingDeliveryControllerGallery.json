@@ -425,7 +425,7 @@
                 "SQLServer": "[parameters('sqlServerFQDN')]",
                 "SQLServerInstance": "[parameters('sqlServerInstance')]",
                 "LicenseServer": "[parameters('licenseServerFQDN')]",
-                "NetScalerIP": "[parameters('netScalerPrivateIp')]",
+                //"NetScalerIP": "[parameters('netScalerPrivateIp')]",
                 "StoreFront": "[parameters('storeFrontFQDN')]",
                 "VirtualServerName": "[parameters('virtualServerName')]",
                 "VirtualServerPort": "[parameters('virtualServerPort')]",
