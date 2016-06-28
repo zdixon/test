@@ -142,12 +142,6 @@
         "description": "Specifies the name of a Citrix license server on the virtual network."
       }
     },
-    //"netScalerPrivateIp": {
-    //  "type": "string",
-    //  "metadata": {
-    //    "description": "Specifies the private IP of a NetScaler on the virtual network."
-    //  }
-    //},
 
     // StoreFront
     "storeFrontFQDN": {
@@ -156,24 +150,24 @@
         "description": "Specifies the name of a StoreFront on the virtual network."
       }
     },
-    "virtualServerName": {
-      "type": "string",
-      "metadata": {
-        "description": "Specifies the name of the NetScaler virtual server to be created for serving StoreFront content."
-      }
-    },
-    "virtualServerPort": {
-      "type": "int",
-      "metadata": {
-        "description": "Specifies the port of the NetScaler virtual server to be created for serving StoreFront content."
-      }
-    },
-    "forwardServerPort": {
-      "type": "int",
-      "metadata": {
-        "description": "Specifies the port of the NetScaler virtual server to be created for forwarding http connections to https."
-      }
-    },
+    //"virtualServerName": {
+    //  "type": "string",
+    //  "metadata": {
+    //    "description": "Specifies the name of the NetScaler virtual server to be created for serving StoreFront content."
+    //  }
+    //},
+    //"virtualServerPort": {
+    //  "type": "int",
+    //  "metadata": {
+    //    "description": "Specifies the port of the NetScaler virtual server to be created for serving StoreFront content."
+    //  }
+    //},
+    //"forwardServerPort": {
+    //  "type": "int",
+    //  "metadata": {
+    //    "description": "Specifies the port of the NetScaler virtual server to be created for forwarding http connections to https."
+    //  }
+    //},
     "storeFrontGatewayName": {
       "type": "string",
       "metadata": {
@@ -425,7 +419,6 @@
                 "SQLServer": "[parameters('sqlServerFQDN')]",
                 "SQLServerInstance": "[parameters('sqlServerInstance')]",
                 "LicenseServer": "[parameters('licenseServerFQDN')]",
-                //"NetScalerIP": "[parameters('netScalerPrivateIp')]",
                 "StoreFront": "[parameters('storeFrontFQDN')]",
                 "VirtualServerName": "[parameters('virtualServerName')]",
                 "VirtualServerPort": "[parameters('virtualServerPort')]",
